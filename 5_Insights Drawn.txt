@@ -1,0 +1,38 @@
+//INSIGHTS\\
+
+1.Total casualties is 417883.
+
+2.Fatal casualties is 7135 ,..i.e 1.7% of Total casualties.
+
+3.Serious casualties is 59312 ,..i.e 14.2% of Total casualties. 
+
+4.Slight casualties is 351436 ,..i.e 84.1% of Total casualties.
+
+5.Vehicle name is Car that have maximum casualties among all the Vehicle 
+>.i.e 333485 79.8% of Total casualties among all the Vehicle.
+
+6.Total casualties by Different Vehicle are:
+>Car -> 33485
+>Bike -> 33672
+>Truck -> 33472
+>Bus -> 12798
+>Tractor -> 1032
+>others -> 3424
+
+7. AS compare to 2022 The casualties of 2021 is more comparitively
+>Means the Accident get minimizes as compare to previous year.
+
+8.casualties by road type 
+>single carriageway was maximum among all the Roadtype ,..i.e 300907
+
+9.casualties by road surface
+>Dry Road surface has most casualties (279445) Followed by wet surface (115261).
+
+
+10.casualties by Location and area
+>Urban region has more casualties than rural one.
+>Urban > 255900
+>rural > 162000
+
+11.Casualties By Road light Condition
+>The maximum casualties take place in Day light i.e 300050

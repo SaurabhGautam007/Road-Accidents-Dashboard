@@ -1,0 +1,107 @@
+Steps Followed:
+
+A}.Initially i wanted number of Total casualties take place after an accident
+>so i made  a pivot of  just one column ,get the sum of casulaties
+>Then I made a rectangular shape icon and drag that sum of total casualties in that .
+>Formated it with colur ,text ,font.
+
+
+
+B}Then I wanted the total casualties and percentage with respect to accident severity
+>made a pivot table of accident severity and casulties
+>so as we want to display individually
+>will calculate individual total and its percentage with respect to other left over severity.
+
+1.Fatal severity
+>As we have the pivot table of severity
+>will make kpis Using doughnut chart visuals
+>so in diffrent column right heading fatal and its fatal severity value 
+>also below it make heading others the additon of left over severity and right the values
+
+>also wanted in percentage manner
+>then beside it
+>for fatal percentage> =Fatalvalue(fatalvalue/othersvalue)
+>for other percentage> =othersvalue(fatalvalue/othersvalue)
+
+eg:=E10/($E$10+$E$11)
+
+2.same process for slight and serious casualties Followed.
+
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+c} Maximum casualties by which type of vehicle:
+>In column rename the vehicle type including car like taki car,uber car,xuv car ,combine all of them into car.
+>Make pivot table of no. of casualties by vehicle type.
+>Then Right the Car and its value by righting the formula > =getpivotdata(fieldname,select value)
+>same with Truck vehicle like its value 
+>same goes for each.
+
+>Then I sorted it in Descending order
+
+>The vehicle which has higher casualties was car then I right its name and values 
+>and others (additon of other vehicle) and then percentage to make kpi of it as doughnut chart.
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+
+D}kpi
+>.made a shape below kpis of 12.4*5cm 
+>then in that go to >insert>icon get the symbol needed as per specific vehicle type 
+>and then format it then write infront of car right values from kpis table.
+>same with other vehicle there icon and values from kpi table.
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+e}Then i wanted month trend of 2021 of 2022 of casulties ,as we have month and year of both the so to comapre it
+>will 1st make month wise sum of casulties using year as legend.
+>Then visualize it using line chart to see the diffrence between the casualties in there own year.
+>and then take a shape of 6.6*14cm so to place a chart in it and format it .
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+f}Then i wanted Maximum casulties held by road type
+>made a pivot of road type and NO. of casulties.then will change the number in thousand  or k in the pivot itself by genral
+>custom>0.0,"K",then sort it
+>then copy it into dashborad of shape 6.6*8
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+g}Then i wanted the distribution of casulties by road surface
+>made a pivot of road surface and casulties,and use tree chart,
+made the comman like wet or flood in single field as previous done in column to rename the word having same meaning in single name
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+h}Then I wanted the casualties by Location and area
+>made a pivot of Location and No. of casulties.then will change the number in thousand  or k in the pivot itself by genral
+>made a doughnut chart.
+>custom>0.0,"K".
+>then copy it into dashborad of shape 6.6*8
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+
+i}Then I wanted the casualties by Light Conditon
+>made a pivot of Light Conditon and No. of casulties.then will change the number in thousand  or k in the pivot itself by genral
+>made a doughnut chart.
+>custom>0.0,"K".
+>then copy it into dashborad of shape 6.6*8
+>Formated it with colur ,text ,font,Bg,style,legend,label,text,shape,icon etc.
+
+
+
+
+******************************************************************Dashboard******************************************************
+
+>clean the gridlines
+>colur the background with custom colur name #222B35
+>Then go into shapes and chhose wisely whatever required shape (which having the conatiner ,in that there will be links like mail,webiste,data etc) and then in shape format select the size 18cm len adn width 3cm
+>then colour that shape with custome color #8497B0
+>again choose the rounded shape square for title at the top with len 1.75 ans width 35cm and colur it #303B4A
+>for kpi , copy paste this shape and format with size 3cm len and widt 8.3 cm and beside it copy paste three time as we have three kpis, and go to align arrang them
+>Then add a title to title shape >insert >textbox etc..then same add text casulties and here add the value to the casulties by clicing box,writing the total casulties by select =cell that conatin value of total casulties
+>same for below kpis fatal serious sligt
+>then add the respective doughnut chart of it ,format it no colur no outline and insdie that use text vox right the perecent of there own using =cell value, do it for all
+
+>then below add the icon inside the shape and enter the value
+>then inside the shape visulaize the kpis
+
+
+
+
+
+

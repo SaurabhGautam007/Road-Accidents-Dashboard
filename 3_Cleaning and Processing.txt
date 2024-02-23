@@ -1,0 +1,28 @@
+
+|| Using Excel for Data Analysis and visualization ||
+
+Metdata is about file type: 
+file.xlsx
+No of  Rows:-307974
+No of fields:21
+
+A}Data Cleaning:
+>goto the power query editor and then
+>detect proper data type each column should hold
+>check not a single data cell of excel of every column should not be null.
+>convert and replace the words having samne meaning from auto traffic sigl to auto traffic signal
+>convert and replace the word fetal to fatal
+>converted time in am pm mode
+>Deleted unwanted columns
+
+B}Data Processing:
+
+In power query editor
+
+1.we need month column
+> so from the date process it into another column naming month by applying formula =TEXt(cell,"mmm")
+
+2.we also need year column 
+>so from the date procees it into another column naming year by applying formula =TEXt(cell,"yyyy")
+
+Then save and load to the original data sheet in Excel.

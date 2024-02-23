@@ -1,0 +1,79 @@
+👨‍🎓Road Accident Dashboard:
+
+Stakeholders: The one who can use our Dashboard data acoording to there use
+*Ministry of Transport
+*Road Transport Department
+*Police force
+*Emergency service Department
+*Road safety Cops
+*Transport Operators 
+*Traffic Management agencies
+*fire Brigade Team
+*Ambulance
+*Civil engineering dept of road
+*public
+*media
+
+REQUIREMENTS:
+>client want to create Road accident Dashboard of year 2021 and 2022  so they can have insights on following requirements
+
+primary kpi: 
+1.Total casualties take place after an accident
+2.Total casualties and percentage of Total with respect to accident severity and maximum casualties by type of vehicle
+
+Secondary kpis:
+1.Total casualties with respect to vehicle type 
+2.Monthly trend showing casualties for current year and previous year 
+3.maximum casualties by Road type
+4.Distribution of Total casualties by Road surface
+5.Relation between casualties by area/location and by day night
+
+The project created by me using a very know visualization tool know as Adv Excel. The project was about to get the reason of employee attrition
+from the company.
+Then I go with the ;
+1. Gathering and collecting of data and understanding the business problem with the company.
+2. Then I went with loading the data ,cleaning the data and transforming or processing the data.
+3.Then I started Analysing by making the visuals and charts ,graphs etc. from required data.
+4.Later I started working with final report Dashboard:
+> where I calculated some measures for kpis visuals .
+> By analysis I created a charts by which we are getting some insights from every chart
+
+
+//INSIGHTS\\
+
+1.Total casualties is 417883.
+
+2.Fatal casualties is 7135 ,..i.e 1.7% of Total casualties.
+
+3.Serious casualties is 59312 ,..i.e 14.2% of Total casualties. 
+
+4.Slight casualties is 351436 ,..i.e 84.1% of Total casualties.
+
+5.Vehicle name is Car that have maximum casualties among all the Vehicle 
+>.i.e 333485 79.8% of Total casualties among all the Vehicle.
+
+6.Total casualties by Different Vehicle are:
+>Car -> 33485
+>Bike -> 33672
+>Truck -> 33472
+>Bus -> 12798
+>Tractor -> 1032
+>others -> 3424
+
+7. AS compare to 2022 The casualties of 2021 is more comparitively
+>Means the Accident get minimizes as compare to previous year.
+
+8.casualties by road type 
+>single carriageway was maximum among all the Roadtype ,..i.e 300907
+
+9.casualties by road surface
+>Dry Road surface has most casualties (279445) Followed by wet surface (115261).
+
+
+10.casualties by Location and area
+>Urban region has more casualties than rural one.
+>Urban > 255900
+>rural > 162000
+
+11.Casualties By Road light Condition
+>The maximum casualties take place in Day light i.e 300050
